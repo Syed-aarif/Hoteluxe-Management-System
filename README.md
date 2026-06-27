@@ -1,21 +1,22 @@
 # 🏨 Hoteluxe Management System
 
-A Spring Boot REST API for managing hotel operations including customers, rooms, and bookings.
-
-## 🚀 Features
-
-* Customer Management (CRUD)
-* Room Management (CRUD)
-* Booking Management (CRUD)
-* Input Validation
-* Global Exception Handling
-* RESTful APIs
-* MySQL Database Integration
-* Tested using Postman
+A Hotel Management System backend application developed using **Spring Boot**, **Spring Data JPA**, and **MySQL**.
 
 ---
 
-## 🛠️ Tech Stack
+## 📌 Features
+
+* 👤 Customer Management (CRUD)
+* 🛏️ Room Management (CRUD)
+* 📅 Booking Management (CRUD)
+* ✅ RESTful APIs
+* ✅ Exception Handling
+* ✅ Input Validation
+* ✅ MySQL Database Integration
+
+---
+
+## 🛠 Technologies Used
 
 * Java 17
 * Spring Boot
@@ -24,60 +25,56 @@ A Spring Boot REST API for managing hotel operations including customers, rooms,
 * MySQL
 * Gradle
 * Postman
-* Git & GitHub
+* Git
+* GitHub
 
 ---
 
-## 📂 Project Structure
+## 📂 Modules
 
-```
-src
- ├── controller
- ├── service
- ├── repository
- ├── entity
- ├── exception
- └── resources
-```
+* Customer Module
+* Room Module
+* Booking Module
 
 ---
 
-## REST APIs
+## 🚀 API Endpoints
 
-### Customer
+### Customer APIs
 
-* POST /customers/add
-* GET /customers/all
-* GET /customers/{id}
-* PUT /customers/update/{id}
-* DELETE /customers/delete/{id}
+* POST `/customers/add`
+* GET `/customers/all`
+* GET `/customers/{id}`
+* PUT `/customers/update/{id}`
+* DELETE `/customers/delete/{id}`
 
-### Room
+### Room APIs
 
-* POST /rooms/add
-* GET /rooms/all
-* GET /rooms/{id}
-* PUT /rooms/update/{id}
-* DELETE /rooms/delete/{id}
+* POST `/rooms/add`
+* GET `/rooms/all`
+* GET `/rooms/{id}`
+* PUT `/rooms/update/{id}`
+* DELETE `/rooms/delete/{id}`
 
-### Booking
+### Booking APIs
 
-* POST /bookings/add
-* GET /bookings/all
-* GET /bookings/{id}
-* PUT /bookings/update/{id}
-* DELETE /bookings/delete/{id}
-
----
-
-## Validation
-
-* Customer name cannot be empty
-* Email must be valid
-* Phone number must contain exactly 10 digits
+* POST `/bookings/add`
+* GET `/bookings/all`
+* GET `/bookings/{id}`
+* PUT `/bookings/update/{id}`
+* DELETE `/bookings/delete/{id}`
 
 ---
 
-## Author
+## 👨‍💻 Developer
 
 **Syed Aarif**
+
+---
+
+⭐ If you like this project, feel free to star this repository.
+
+
+
+
+
